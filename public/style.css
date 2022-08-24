@@ -1,0 +1,263 @@
+@media screen {
+  body,
+  div,
+  h1,
+  form,
+  fieldset,
+  input,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  fieldset {
+    border: none;
+  }
+  h1 {
+    font-size: 100%;
+    font-weight: normal;
+  }
+  .clearboth {
+    clear: both !important;
+  }
+  html > body {
+    font-size: 12px;
+  }
+  body {
+    background-color: #fdfdfd;
+    color: #312e2e;
+    font: 75% Verdana, Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    margin: 0 auto;
+    width: 740px;
+  }
+  a:link,
+  a:visited {
+    color: #267cc0;
+  }
+  a:hover {
+    color: #024375;
+  }
+  a:active {
+    color: green;
+  }
+  p {
+    clear: both;
+    font-size: 100%;
+    margin-bottom: 1em;
+  }
+  h1 {
+    font-size: 160%;
+    font-weight: bold;
+  }
+  hr {
+    display: none;
+    visibility: hidden;
+  }
+  p#skip {
+    display: none;
+    visibility: hidden;
+  }
+  div#header {
+    border-bottom: 1px solid #0468b6;
+    border-top: 2px solid #0468b6;
+    height: 70px;
+    margin: 1em 0;
+  }
+  div#header h1 {
+    background: transparent
+      url("https://myresults.cie.org.uk/cie-candidate-results/resources/img/cieCandResultsSprites.gif")
+      no-repeat 0px -161px;
+    float: left;
+    height: 22px;
+    margin: 12px 0;
+    text-align: left;
+    text-indent: -9999px;
+    width: 210px;
+  }
+  span.logo {
+    float: right;
+    width: 252px;
+    height: 45px;
+    margin: 14px 0;
+    background: transparent
+      url("https://myresults.cie.org.uk/cie-candidate-results/resources/img/CAIE_logo_colour_2.png")
+      no-repeat;
+  }
+  div#login {
+    background-color: #0468b6;
+    clear: both;
+    color: #fdfdfd;
+    padding: 1em;
+  }
+  div#login form {
+    margin: 14px 0 1em 0;
+    width: 100%;
+  }
+  div#login form fieldset {
+    margin-left: 6px;
+  }
+  div#login form fieldset div#credentials {
+    float: left;
+    margin: 26px 0 0 40px;
+  }
+  div#login form fieldset legend {
+    color: #fdfdfd;
+    font-size: 130%;
+    font-weight: bold;
+    margin: 0 5px 0 -5px;
+  }
+  div#login form fieldset label {
+    float: left;
+    font-weight: bold;
+    line-height: 2.7em;
+    margin-right: 20px;
+    width: 6.5em;
+  }
+  div#login form fieldset input.username,
+  div#login form fieldset input.password {
+    border: 1px solid #03497f;
+    color: #035a9e;
+    font-size: 200%;
+    margin: 0 12px 6px 0;
+    padding: 2px 6px;
+    width: 10em;
+  }
+  div#login form fieldset input.username {
+    float: left;
+  }
+  div#login form fieldset input.password {
+    float: left;
+  }
+  div#login form fieldset span {
+    float: left;
+    font-size: 90%;
+    margin-top: 8px;
+    width: 18em;
+  }
+  div#login form fieldset input#submit {
+    color: #03497f;
+    font-weight: bold;
+    margin: 1px 0 0 0;
+    padding: 6px 18px;
+    width: auto;
+  }
+  div#login form fieldset input#submit:hover,
+  div#login form fieldset input#submit:active {
+    color: green;
+  }
+  div#login form fieldset p {
+    clear: both;
+    margin: 0;
+    padding-top: 2em;
+  }
+  div#footer {
+    border-bottom: 2px solid #0468b6;
+    border-top: 2px solid #0468b6;
+    float: left;
+    margin-top: 32px;
+    padding: 12px 0 4px 0;
+    width: 100%;
+  }
+  div#footer:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+  }
+  div#footer.login {
+    margin-top: 1em;
+  }
+  div#footer p {
+    float: left;
+    font-size: 80%;
+    line-height: 1.6em;
+    margin-top: 10px;
+    width: 580px;
+  }
+}
+
+@media print {
+  body {
+    background: white;
+    color: black;
+    font: 12pt/1.4em "Times New Roman", Times, serif;
+    width: auto;
+  }
+  a:link,
+  a:visited {
+    color: #4169e1;
+  }
+  h1 {
+    display: none;
+  }
+  #skip,
+  hr,
+  #footer {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
+/*! CSS Used from: https://myresults.cie.org.uk/cie-candidate-results/resources/css/mobile.css ; media=handheld */
+@media handheld {
+  body {
+    background: white;
+    color: black;
+    font: 100% Arial, Helvetica, sans-serif;
+    margin: 0;
+    max-width: 320px;
+  }
+  a:link,
+  a:visited {
+    color: #0468b6;
+  }
+  a:hover,
+  a:active {
+    color: green;
+  }
+  h1 {
+    background-color: #0468b6;
+    border-bottom: 4px solid #b8d9f1;
+    font-size: 145%;
+    margin: 0 0 8px 0;
+    padding: 4px 0 4px 6px;
+  }
+  div#header h1 a {
+    color: white;
+    text-decoration: none;
+  }
+  hr {
+    border-bottom: none;
+    border-top: 1px solid #ccc;
+  }
+  p#skip,
+  div#footer br {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  div#footer {
+    margin: 0 6px;
+  }
+  div#login fieldset {
+    border: none;
+    margin: 0;
+  }
+  div#login legend {
+    padding: 0 0 8px 0;
+  }
+  div#login label {
+    display: block;
+    font-weight: bold;
+  }
+  div#login input {
+    margin: 2px 0;
+  }
+  div#login span {
+    color: #666;
+    display: block;
+  }
+  div#login input#submit {
+    display: block;
+    width: 140px;
+  }
+}
