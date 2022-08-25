@@ -39,8 +39,7 @@
         <div class="container">
             <div class="navbar-header">
                 <!-- Button for smallest screens -->
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
-                        class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
                 <a class="navbar-brand" href="index.html">
                     <img src="assets/images/logo.png" alt="#" class="logoimg desktoppicone">
                     <img src="assets/images/logo-text.png" alt="#" class="logoimgtxt desktoppic">
@@ -50,7 +49,7 @@
             <div class="navbar-collapse collapse">
 
                 <ul class="nav navbar-nav pull-right mainNav">
-                    <li class="c7 active"><a href="index.html">Home</a></li>
+                    <!-- <li class="c7 active"><a href="index.html">Home</a></li>
                     <li class="c4"><a href="aboutus.html">About Us</a></li>
                     <li class="c4"><a href="verification.html">Online Verification</a></li>
                     <li class="c4"><a href="members.html">Our Members</a></li>
@@ -64,7 +63,7 @@
                             <li><a href="twoyearscourses.html">Two Years Diploma Courses</a></li>
                         </ul>
                     </li>
-                    <li class="c4"><a href="contact.html">Contact</a></li>
+                    <li class="c4"><a href="contact.html">Contact</a></li> -->
 
                 </ul>
             </div>
@@ -106,14 +105,11 @@
 
                         <tr>
                             <td colspan="2" class="text" align="center">
-                                <input type="text" name="email" id="regroll" value=""
-                                    style="width:280px; margin:20px;" class="form-control" placeholder="Enter Roll No">
-                                <input type="hidden" id="password" name="password" class="password" maxlength="24"
-                                    value="12345678" placeholder="Certificate Number" />
+                                <input type="text" name="email" id="regroll" value="" style="width:280px; margin:20px;" class="form-control" placeholder="Enter Roll No">
+                                <input type="hidden" id="password" name="password" class="password" maxlength="24" value="12345678" placeholder="Certificate Number" />
 
 
-                                <button type="submit" class="btn btn-two" onClick="return validdation();"
-                                    style="margin:20px;">Submit</button>
+                                <button type="submit" class="btn btn-two" onClick="return validdation();" style="margin:20px;">Submit</button>
                             </td>
                         </tr>
 
@@ -235,11 +231,11 @@
                             <h4>Contact</h4>
                             <p></p>
                             <div class="contact-info">
-                                <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Office No : 12, 1st Floor, <br />Royal
+                                <!-- <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Office No : 12, 1st Floor, <br />Royal
                                 Plaza, 6th Road, <br />Rawalpindi Pakistan<br />
                                 <br>
-                                <i class="fa fa-phone"></i>&nbsp;&nbsp;+92-333-1527630<br> <br>
-                                <i class="fa fa-envelope-o"></i>&nbsp;&nbsp;info@psec.org.pk
+                                <i class="fa fa-phone"></i>&nbsp;&nbsp;+92-333-1527630<br> <br> -->
+                                <i class="fa fa-envelope-o"></i>&nbsp;&nbsp;info@sdcp-org-pk.com
                             </div>
                         </div><!-- end widget -->
                     </div>
@@ -263,11 +259,11 @@
                     <div class="col-md-6 panel">
                         <div class="panel-body">
                             <p class="simplenav">
-                                <a href="index.html">Home</a> |
-                                <a href="aboutus.html">About Us</a> |
-                                <a href="verification.html">Online Verification</a> |
-                                <a href="members.html">Our Members</a> |
-                                <a href="contact.html">Contact</a>
+                                <a href="#">Home</a> |
+                                <a href="#">About Us</a> |
+                                <a href="#">Online Verification</a> |
+                                <a href="#">Our Members</a> |
+                                <a href="#">Contact</a>
                             </p>
                         </div>
                     </div>
@@ -275,8 +271,7 @@
                     <div class="col-md-6 panel">
                         <div class="panel-body">
                             <p class="text-right">
-                                Copyright &copy; 2019. Designed by <a
-                                    href="https://www.quranonlinestudy.com/consultancy/" rel="develop">@mbasoft@</a>
+                                Copyright &copy; 2019. Designed by <a href="#" rel="develop">@mbasoft@</a>
                             </p>
                         </div>
                     </div>
