@@ -42,7 +42,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
                 <a class="navbar-brand" href="index.html">
                     <img src="assets/images/logo.png" alt="#" class="logoimg desktoppicone">
-                    <img src="assets/images/logo-text.png" alt="#" class="logoimgtxt desktoppic">
+                    <!-- <img src="assets/images/logo-text.png" alt="#" class="logoimgtxt desktoppic"> -->
                 </a>
             </div>
 
